@@ -37,7 +37,7 @@ new Vue({
         },
 
         confirmDelete: function (index) {
-            const confirmDelete = confirm('Are you sure you want to delete this computer?');
+            const confirmDelete = confirm('Are you sure you want to delete this?');
             if (confirmDelete) {
                 this.deleteComputer(index);
             }
